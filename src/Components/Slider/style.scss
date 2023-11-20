@@ -1,0 +1,40 @@
+
+
+.logo-container {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 9px -4px;
+    // background: linear-gradient(to right,rgb(117, 94, 252), rgb(15, 1, 81),rgb(15, 1, 81)) ;
+  }
+  .brands-wrap {
+    display: flex;
+  
+    animation: marquee 10s linear infinite;
+  }
+  
+  .brand-logo {
+    width: 325px;
+    height: 70px;
+    object-fit: contain;
+  }
+ 
+  
+  @keyframes marquee {
+    from {
+      left: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquees {
+    from {
+      right: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

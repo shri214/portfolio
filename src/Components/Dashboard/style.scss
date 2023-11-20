@@ -1,0 +1,37 @@
+@import "../../Sass/variable.scss";
+
+.dash-bg {
+    background: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+  height: 90vh;
+  width: 100%;
+  & .texts {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    position: sticky;
+    top: 20%;
+    margin-bottom: 10%;
+    
+    & .headings {
+      
+      & .heading1 {
+        background: -webkit-linear-gradient(left, #2b42e9, #755efc, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 4rem;
+        text-align: center;
+        transition: 0.5s;
+      }
+      & .heading1:hover {
+        -webkit-text-stroke: 1.2px rgb(123, 218, 183);
+        background: -webkit-linear-gradient(left, white, #755efc, #2b42e9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      & .type {
+        font-size: 3rem;
+        margin-top: 20px;
+      }
+    }
+  }
+}

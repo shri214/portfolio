@@ -1,0 +1,47 @@
+@import "../../Sass/mixinss.scss";
+@import "../../Sass/variable.scss";
+#about {
+  background: url(https://images.pexels.com/photos/1679719/pexels-photo-1679719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+    center/cover no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: $color-white;
+  padding-top: 10px;
+  & h1 {
+    font-size: 3rem;
+    text-align: center;
+    height: 15%; 
+    background: -webkit-linear-gradient(left, #ed864f, #755efc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  & .rows {
+    @include displayProperties(row, space-between, start);
+    width: 80%;
+    height: 85%;
+    margin: auto;
+
+    & .image {
+      width: 50%;
+      height: 100%;
+      & img {
+        margin: auto;
+        height: 100%;
+        width: 90%;
+        object-fit: contain;
+      }
+    }
+    & .abouts {
+      width: 50%;
+      height: fit-content;
+      position: sticky;
+      top: 20%;
+      left: 0px;
+      & p {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
