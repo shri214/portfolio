@@ -5,7 +5,7 @@
     flex-flow: row nowrap;
     overflow: hidden;
     margin: 10px 0px;
-    box-shadow: 0px 0px 9px -4px;
+    box-shadow:  0px 0px 9px -4px;
     // background: linear-gradient(to right,rgb(117, 94, 252), rgb(15, 1, 81),rgb(15, 1, 81)) ;
   }
   .brands-wrap {
@@ -15,8 +15,9 @@
   }
   
   .brand-logo {
-    width: 325px;
+    width: fit-content;
     height: 70px;
+    margin: 0px 30px;
     object-fit: contain;
   }
  
@@ -38,3 +39,15 @@
     }
   }
   
+  @media screen and (max-width:700px) {
+    .brand-logo {
+      height: 60px;
+      margin: 0px 20px;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .brand-logo {
+      height: 50px;
+      margin: 0px 10px;
+    }
+  }

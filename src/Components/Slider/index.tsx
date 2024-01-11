@@ -38,7 +38,7 @@ export const Slider: React.FC = () => {
           className="brand-logo"
         />
         <img
-          src="https://camo.githubusercontent.com/ca6aa1ab541ed340bea69a07531b5a8a2317568c7f1c4d64aabe47f4c803147f/68747470733a2f2f7777772e6c6567656e646170702e636f6d2f696d672f4c6f676f546578744f6e57686974652e706e67"
+          src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
           alt="Matrix - Logo"
           className="brand-logo"
         />
@@ -76,7 +76,7 @@ export const Slider: React.FC = () => {
           className="brand-logo"
         />
         <img
-          src="https://camo.githubusercontent.com/ca6aa1ab541ed340bea69a07531b5a8a2317568c7f1c4d64aabe47f4c803147f/68747470733a2f2f7777772e6c6567656e646170702e636f6d2f696d672f4c6f676f546578744f6e57686974652e706e67"
+          src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
           alt="Matrix - Logo"
           className="brand-logo"
         />

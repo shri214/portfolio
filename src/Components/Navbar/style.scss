@@ -32,8 +32,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 40vh;
-        width: 40vw;
+        height: 40%;
+        width: 40%;
         object-fit: contain;
       }
     }
@@ -122,7 +122,7 @@
       width: 40%;
       height: calc(100vh - 80px);
       background-color: $color-navbg;
-      @include displayProperties(column, start, center);
+      @include displayProperties(column, flex-start, center);
       & > a {
         padding: 10px 40%;
         text-decoration: none;

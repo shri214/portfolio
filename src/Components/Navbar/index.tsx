@@ -4,6 +4,8 @@ import "./style.scss";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import Logo from "../../assets/dp.jpg"
+
 interface NavbarProps {}
 
 export const Navbar: React.FC<NavbarProps> = () => {
@@ -53,7 +55,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
           <div className="logo-img" onClick={openProfile}>
             <img
               className="dp"
-              src="https://scontent.flko1-2.fna.fbcdn.net/v/t1.6435-9/100099329_1138725776487116_9006271709308780544_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0CKAzFacvGUAX-cvqkL&_nc_ht=scontent.flko1-2.fna&oh=00_AfDJp1EQCpf14rIgZ0Ws-Q5UHhbLVkETbsOIPtA3QL5VUw&oe=6582BF2C"
+              src={Logo}
               alt="profile"
             />
           </div>
@@ -61,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
           <div className="profile" onClick={settingDp}>
             <img
               className="profile-dp"
-              src="https://scontent.flko1-2.fna.fbcdn.net/v/t1.6435-9/100099329_1138725776487116_9006271709308780544_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0CKAzFacvGUAX-cvqkL&_nc_ht=scontent.flko1-2.fna&oh=00_AfDJp1EQCpf14rIgZ0Ws-Q5UHhbLVkETbsOIPtA3QL5VUw&oe=6582BF2C"
+              src={Logo}
               alt="profile"
             />
           </div>
